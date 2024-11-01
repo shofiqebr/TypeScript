@@ -1,0 +1,1 @@
+const course : string = 'web development'
