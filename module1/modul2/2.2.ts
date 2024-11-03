@@ -42,5 +42,26 @@
     }
 
 
+    // array interface
 
+ type Roll =number[]
+
+    const roll : Roll   = [3,4,5]
+
+    interface Roll1 {
+        [index : number] : number
+    }
+    const role1 : Roll1 = [23,45, 434]
+
+
+    // function interface
+
+    type Add = (num1 : number , num2 : number ) => number
+    const add : Add = ( num1 ,num2) => num1+ num2
+
+    interface Add1 { 
+        (num1 : number, num2 : number) : number
+    }
+    const add1 : Add1 = (num1 , num2) => num1+ num2
+    
 }
